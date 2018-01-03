@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --degstart: 17deg;
+    --degend: 17deg;
+}
+
+body {
+    background-color: #daadad;
+}
+
+.box {
+    position: relative;
+    /*   top: 50px;
+  left: 100px; */
+    margin: auto;
+    margin-top: 50px;
+    height: 420px;
+    width: 420px;
+    padding: 0;
+    /*   border: solid; */
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /*   border: solid black; */
+    /*   z-index: -1; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    /*     background-color: #333; */
+}
+
+.navbar {
+    position: absolute;
+    /*   display: block; */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    padding: 0;
+    background-color: #ffb99d;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 4px 18px;
+    background-color: #ffb99d;
+    color: #000;
+    cursor: pointer;
+}
+
+li:last-child a {
+    padding: 4px 18px 4px 18px;
+}
+
+li a:hover:not(.active) {
+    background-color: #eeaaaa;
+}
+
+.active {
+    background-color: #df8999;
+}
+
+#results {
+    position: relative;
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    background-color: #da9999;
+    padding: 15px;
+}
+
+#description {
+    position: relative;
+    margin: 10px auto;
+}
+
+#date {
+    margin-bottom: 10px;
+}
+
+#sunSign {
+    margin-top: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#wheel {
+    background: url(../assets/img/zodiac-wheel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 400px;
+    width: 400px;
+    padding: 0;
+}
+
+#capricorn {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 10px;
+    left: 130px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#aquarius {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 50px;
+    left: 40px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#pisces {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 130px;
+    left: 10px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#aries {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 205px;
+    left: 10px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#taurus {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 280px;
+    left: 50px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#gemini {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 320px;
+    left: 130px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#cancer {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 320px;
+    left: 205px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#leo {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 280px;
+    left: 280px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#virgo {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 200px;
+    left: 320px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#libra {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 125px;
+    left: 320px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#scorpio {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 50px;
+    left: 285px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#sagittarius {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 10px;
+    left: 210px;
+    cursor: pointer;
+    /*   border: solid 1px red; */
+}
+
+#spinner {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    color: #993333;
+}
+
+.spin-toggle {
+    display: none;
+}
