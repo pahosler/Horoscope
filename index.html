@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Paul Hosler">
+    <meta name="description" content="Horoscope - choose your sign to spin the wheel and get your fortune.">
+    <meta name="keywords" content="horoscope, javascript">
+    <title>Horoscope</title>
+<link href="style.css" rel="stylesheet"></head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div id="wheel">
+                <div id="capricorn"></div>
+                <div id="aquarius"></div>
+                <div id="pisces"></div>
+                <div id="aries"></div>
+                <div id="taurus"></div>
+                <div id="gemini"></div>
+                <div id="cancer"></div>
+                <div id="leo"></div>
+                <div id="virgo"></div>
+                <div id="libra"></div>
+                <div id="scorpio"></div>
+                <div id="sagittarius"></div>
+            </div>
+        </div>
+        <div id="results">
+            <div class="nav">
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <a href="#" id="yesterday">Yesterday</a>
+                        </li>
+                        <li>
+                            <a class="active" href="#" id="today">Today</a>
+                        </li>
+                        <li>
+                            <a href="#" id="tomorrow">Tomorrow</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p id="sunSign"></p>
+            <p id="date"></p>
+            <p id="description"></p>
+            <p class="spin-toggle" id="spinner">
+                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+            </p>
+        </div>
+    </div>
+
+</html>
+<script type="text/javascript" src="bundle.js"></script>
