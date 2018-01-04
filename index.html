@@ -9,6 +9,7 @@
     <meta name="keywords" content="horoscope, javascript">
     <title>Horoscope</title>
 </head>
+
 <body>
     <div class="container">
         <div class="box">
@@ -30,25 +31,19 @@
         <div id="results">
             <div class="nav">
                 <div class="navbar">
-                    <ul>
-                        <li>
-                            <a href="#" id="yesterday">Yesterday</a>
-                        </li>
-                        <li>
-                            <a class="active" href="#" id="today">Today</a>
-                        </li>
-                        <li>
-                            <a href="#" id="tomorrow">Tomorrow</a>
-                        </li>
-                    </ul>
+                    <div class="item1" id="yesterday">Yesterday</div>
+                    <div class="item2" id="today">Today</div>
+                    <div class="item3" id="tomorrow">Tomorrow</div>
                 </div>
             </div>
-            <p id="sunSign"></p>
-            <p id="date"></p>
-            <p id="description"></p>
-            <p class="spin-toggle" id="spinner">
-                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
-            </p>
+            <div class="description">
+                <div class="item4">
+                    <p id="sunSign"></p>
+                    <p id="date"></p>
+                    <p id="description"></p>
+                    <p class="spin-toggle" id="spinner"><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></p>
+                </div>
+            </div>
         </div>
     </div>
 
