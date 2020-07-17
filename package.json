@@ -15,7 +15,7 @@
     "dependencies": {
         "css-loader": "^0.28.7",
         "gh-pages": "^1.1.0",
-        "style-loader": "^0.19.1"
+        "style-loader": "^0.20.0"
     },
     "devDependencies": {
         "babel-core": "^6.26.0",
